@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_Background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="286dp"
+        android:src="@drawable/image1"
+        android:transitionName="logo">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_logo"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-thin"
+        android:text="LUNA"
+        android:textColor='@color/textColor'
+        android:textSize="45sp"
+        android:layout_marginTop="10dp"
+        android:transitionName="logo_text">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/img_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/leaves"
+        android:transitionName="img_tree">
+
+    </ImageView>
+
+
+</RelativeLayout>
